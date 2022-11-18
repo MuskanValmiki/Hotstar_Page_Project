@@ -1,0 +1,26 @@
+#popular_shows{
+  display: grid;
+  width: 98.5vw;
+  height: 40vh;
+  border: 1px solid black;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  background-color: white;
+}
+.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6,.grid-item7,.grid-item8{
+    height: 40vh;
+    width: 12vw;     
+}
+#image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8{
+    height: 40vh;
+    width: 12vw; 
+}
+.arrow{
+    position: relative;
+    font-weight: bold;
+    color: black;
+    top: -200px;
+    left: 800%;
+}
+img:hover{
+    transform: scale(1.1);
+}
