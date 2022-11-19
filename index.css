@@ -1,39 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-#popular_shows{
-  display: grid;
-  width: 98.5vw;
-  height: 40vh;
-  border: 1px solid black;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
-  background-color: white;
+*{
+    background-color: #0c111b;
+    /* background-color: #2596be; */
 }
-.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6,.grid-item7,.grid-item8{
-    height: 40vh;
-    width: 12vw;     
-}
-#image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8{
-    height: 40vh;
-    width: 12vw; 
-}
-.arrow{
-    position: relative;
-    font-weight: bold;
-    color: black;
-    top: -200px;
-    left: 800%;
-}
-img:hover{
-    transform: scale(1.1);
-}
-
-#Maindiv{
-    height: 40vh;
-=======
-=======
 #TitleBar{
     width: 100vw;
-    height: 13vh;
+    height: 11vh;
     background-color: rgb(12,27,75);
     display: flex;
     flex-direction: row;
@@ -58,8 +29,8 @@ img:hover{
 #tv {
   background-color: rgb(12,27,75);
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
   border: none;
 }
 
@@ -67,6 +38,7 @@ img:hover{
   position: relative;
   display: inline-block;
   margin-top: 1.1%;
+  background-color: rgb(12,27,75);
 }
 
 #TV-content {
@@ -83,6 +55,7 @@ img:hover{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  
 }
 
 #TV-content a:hover {background-color: #ddd;}
@@ -91,8 +64,8 @@ img:hover{
 #movies {
   background-color: rgb(12,27,75);
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
   border: none;
 }
 
@@ -100,6 +73,7 @@ img:hover{
   position: relative;
   display: inline-block;
   margin-top: 1.1%;
+  background-color: rgb(12,27,75);
 }
 
 #M-content {
@@ -124,8 +98,8 @@ img:hover{
 #sports {
   background-color: rgb(12,27,75);
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
   border: none;
 }
 
@@ -133,6 +107,7 @@ img:hover{
   position: relative;
   display: inline-block;
   margin-top: 1.1%;
+  background-color: rgb(12,27,75);
 }
 
 #S-content {
@@ -157,53 +132,148 @@ img:hover{
 #disney {
   background-color: rgb(12,27,75);
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
   border: none;
-  margin-top: 16%;
+  margin-top: 2vh;
+}
+#Disney{
+    background-color: rgb(12,27,75);
 }
 #search-bar{
-  margin-top: 2.4%;
+  margin-top: 2.1%;
   margin-left: 32%;
+  background-color: rgb(12,27,75);
+}
+#search-input{
+    height: 3vh;
+    width: 15vw;
+    color: white;
+    background-color: white;
 }
 
 
 #subscribe{
-  margin-top: 43%;
-  margin-left: 20%;
+  margin-top: 30%;
+  margin-left: 8%;
   background-color: #2596be;
   border-radius: 10%;
   border: 1px solid rgb(12,27,75);
   color: white;
+  height: 3.5vh;
+  width: 7vw;
+  font-size: large;
+}
+#Subscribe{
+    background-color: rgb(12,27,75);
 }
 #login {
   background-color: rgb(12,27,75);
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
   border: none;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 2.5vh;
 }
+#Login{
+    background-color: rgb(12,27,75);
+}
+/* For styling */
+#slidercontainer{
+    width: 95vw;
+    height: 65.8vh;
+    margin: auto;
+    border-radius: 5px;
+   
+    
+}
 
->>>>>>> fbcccb0210b07ded06d7aeb3ca3405387d049cc5
+.slider1{
+    margin-left: 440px; 
 
+}
+#sliderimg{
+    border-radius: 3px;
+    width: 64vw;
+    height: 65.8vh;
+    position: relative;
+    left: 220px;
+}
+
+.textbody{
+    width: 36.2vw;
+    height: 65.8vh;
+    margin-top: -405px;
+    border-radius: 3px;
+    background-color: rgb(1, 7, 27);
+    position: relative;
+    bottom: 248.3px;
+    right: 12px;
+}
+#text{
+    background-color: rgb(1, 7, 27);
+}
+
+#shadowtextContainer{
+    width: 26vw;
+    height: 40vh;
+    margin-top: -300px;
+    margin-left: 150px;
+    color: white;
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    background-color: rgb(1, 7, 27);
+}
+#popular_shows{
+    display: grid;
+    width: 98.5vw;
+    height: 40vh;
+    margin-top: 50px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* background-color: white; */
+  }
+  .grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6,.grid-item7,.grid-item8{
+      height: 40vh;
+      width: 12vw;
+      border-radius: 5px;     
+  }
+  #image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8{
+      height: 40vh;
+      width: 12vw; 
+  }
+  .arrow{
+      position: relative;
+      font-weight: bold;
+      color: black;
+      top: -200px;
+      left: 800%;
+  }
+  img:hover{
+      transform: scale(1.1);
+  }
+  
+  #Maindiv{
+      height: 40vh;
+  }
 #trending{
->>>>>>> 2ca2ee790d93b3715f27bac5873acf0889df20f1
     width: 98.5vw;
     height: 40vh;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto ;
-    background-color: white;
+    
 }
 #pic1,#pic2,#pic3,#pic4,#pic5,#pic6,#pic7,#pic8{
     width: 12vw;
     height: 40vh;
+    border-radius: 5px;
 }
 
 #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8{
     width: 12vw;
     height: 40vh; 
+    border-radius: 5px;
 }
 
 img:hover{
@@ -216,10 +286,45 @@ img:hover{
     color: black;
     font-weight: bold;
 }
-<<<<<<< HEAD
-   
-=======
-/* For styling */
 
 
->>>>>>> 2ca2ee790d93b3715f27bac5873acf0889df20f1
+#Maindiv{
+    height: 40vh;
+    width: 98.5vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8{
+    height: 40vh;
+    width: 12vw;
+    border-radius: 5px;
+}
+#image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8{
+    height: 40vh;
+    width: 12vw;
+    border-radius: 5px;
+    cursor: zoom-out;
+    cursor: grab;
+    
+}
+#rightArrow{
+    width: 3vw;
+    height: 5vh;
+    position: relative;
+    left: 1220px ;
+    bottom: 140px;
+    border-radius: 40%;    
+}
+#arrow{
+    position: relative;
+   bottom: 43px;
+   left: 5px;
+   font-size: 3em;
+   color: white;
+}
+img:hover{
+    transform: scale(1.1); 
+}
+#heading1,#heading2,#heading3{
+    color: white;
+}
