@@ -33,7 +33,7 @@ In this blog I made 8 pages of movie.
 ![http://127.0.0.1:5500/index.html]
 
 
-## Muskan Valmikee ,Sukhanya,Aishani,Gudia and Anusha.
+## Muskan Valmikee
 
 #Here I create 3rd blog which is popular shows option.
 
