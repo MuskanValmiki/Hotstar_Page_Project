@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     background-color: #0c111b;
     /* background-color: #2596be; */
@@ -125,21 +124,18 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-=======
+}
 /* For styling */
 #slidercontainer{
     width: 90vw;
     height: 65.8vh;
     margin: auto;
     border-radius: 5px;
-    
->>>>>>> f20393f77967e4642d823bc9f86a56e0f6a834fa
 }
 
 .slider1{
     margin-left: 440px; 
-
-<<<<<<< HEAD
+}
 #Sports:hover #S-content {display: block;}
 #disney {
   background-color: rgb(12,27,75);
@@ -340,26 +336,10 @@ img:hover{
 #heading1,#heading2,#heading3{
     color: white;
 }
-=======
-}
+
 #sliderimg{
     border-radius: 3px;
     
 }
 
-.textbody{
-    width: 34.2vw;
-    height: 65.9vh;
-    margin-top: -405px;
-    border-radius: 3px;
-    background-color: rgb(1, 7, 27);
-}
 
-#shadowtextContainer{
-    width: 26vw;
-    height: 40vh;
-    margin-top: -350px;
-    margin-left: 150px;
-    color: white;
-}
->>>>>>> f20393f77967e4642d823bc9f86a56e0f6a834fa
