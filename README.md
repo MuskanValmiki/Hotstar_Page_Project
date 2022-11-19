@@ -21,9 +21,9 @@ PROJECT HOTSTAR_PAGE
 *** ![http://127.0.0.1:5500/index.html]
 
 *** Here is demo or out project page how it look like.
-<img src="/home/muskan/Desktop/Hotstar_Page_project/Screenshot from 2022-11-19 13-00-41.png">
-<img src="/home/muskan/Desktop/Hotstar_Page_project/Screenshot from 2022-11-19 13-03-13.png">
-<img src="/home/muskan/Desktop/Hotstar_Page_project/Screenshot from 2022-11-19 13-04-09.png">
+<img src="First.png">
+<img src="Second.png">
+<img src="Third.png">
 
 
 =======
