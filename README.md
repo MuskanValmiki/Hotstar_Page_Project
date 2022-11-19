@@ -6,7 +6,7 @@ In this blog I made 8 pages of movie.
 ![http://127.0.0.1:5500/index.html]
 
 
-##Muskan Valmikee
+<bold>##Muskan Valmikee
 <br>
 #Here I create 3rd blog which is popular shows option.
 #If we click that shows image so it increase the size of that image for that I use hover tag.
