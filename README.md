@@ -7,6 +7,7 @@ In this blog I made 8 pages of movie.
 
 
 ##Muskan Valmikee
+<br>
 #Here I create 3rd blog which is popular shows option.
 #If we click that shows image so it increase the size of that image for that I use hover tag.
 #I learn so many news thing in html and css like (how we gave to style or our html by using css).
