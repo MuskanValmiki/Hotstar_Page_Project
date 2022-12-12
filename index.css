@@ -193,8 +193,6 @@
     height: 65.8vh;
     margin: auto;
     border-radius: 5px;
-   
-    
 }
 
 .slider1{
@@ -212,12 +210,12 @@
 .textbody{
     width: 36.2vw;
     height: 65.8vh;
-    margin-top: -405px;
+    margin-top: -395px;
     border-radius: 3px;
     background-color: rgb(1, 7, 27);
     position: relative;
     bottom: 248.3px;
-    right: 12px;
+    right: 32px;
 }
 #text{
     background-color: rgb(1, 7, 27);
